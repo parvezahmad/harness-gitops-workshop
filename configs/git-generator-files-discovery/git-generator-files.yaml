@@ -13,7 +13,7 @@ spec:
     metadata:  
       name: '{{cluster.namespace}}-podinfo'  
     spec:  
-      project: ARGO_PROJECT_ID  
+      project: c7aedd51 
       source:  
         repoURL: https://github.com/parvezahmad/harness-gitops-workshop.git  
         targetRevision: HEAD  
